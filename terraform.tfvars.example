@@ -1,0 +1,12 @@
+region      = "us-east-1"
+project     = "scalable-web"
+environment = "dev"
+alert_email = "you@example.com"
+
+# Cost saving during labs (one NAT Gateway instead of two):
+# single_nat_gateway = true
+
+# Optional: custom domain + HTTPS
+# domain_name     = "app.example.com"
+# hosted_zone_id  = "Z0123456789ABC"
+# certificate_arn = "arn:aws:acm:us-east-1:123456789012:certificate/xxxx"
